@@ -15,3 +15,6 @@ get-VMHost $hostname| Get-VirtualSwitch -Name "vSwitch1" | New-VirtualPortGroup 
 new-virtualswitch -host $hostname -name "vSwitch2" -Nic vmnic4,vmnic5
 
 get-VMHost $hostname| Get-VirtualSwitch -Name "vSwitch2" | New-VirtualPortGroup -Name “VF189_ACCIONA” -VLanId 189
+<#
+Pruebas para powershell
+#>
